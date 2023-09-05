@@ -14,6 +14,7 @@ const useData = <T>(endpoint: string,requestConfig?:AxiosRequestConfig,deps?:any
 
   useEffect(() => {
     const controller = new AbortController();
+    
 
     setLoading(true);
     apiClient
